@@ -26,16 +26,16 @@ namespace Hellowold
 
                 svar = Console.ReadLine().ToLower();
                 svar.Trim();
-                if (svar == "ja")
+                if (svar == "ja") // svara ja
                 {
                     lup = true;
-                    tilstond = "Lever";
+                    tilstond = "Lever"; // edrar till död till levade 
                 }
                 
             
 
 
-            Console.WriteLine("du heter " + namn);
+            Console.WriteLine("du heter " + namn); // skriver ut svar
             Console.WriteLine("du är " + ålder + " år gamal");
             Console.WriteLine("du " + tilstond);
         }
