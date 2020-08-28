@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\bin\Debug\netcoreapp3.1\Hellowold.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\bin\Debug\netcoreapp3.1\Hellowold.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\bin\Debug\netcoreapp3.1\Hellowold.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\bin\Debug\netcoreapp3.1\Hellowold.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\bin\Debug\netcoreapp3.1\Hellowold.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\bin\Debug\netcoreapp3.1\Hellowold.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Hellowold\obj\Debug\netcoreapp3.1\Hellowold.genruntimeconfig.cache
