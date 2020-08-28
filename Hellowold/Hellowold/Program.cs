@@ -11,14 +11,14 @@ namespace Hellowold
 
             Console.WriteLine("vad heter du ?");
 
-            string namn = Console.ReadLine();
+            string namn = Console.ReadLine(); // lärger in namn
 
             Console.WriteLine("hur gammal är du ?");
                 
-            ålder = Convert.ToInt32(Console.ReadLine());
+            ålder = Convert.ToInt32(Console.ReadLine()); // skriver ålder i sifror
 
             String svar;
-            String tilstond = "finns";
+            String tilstond = "är död";
             bool lup = false;
             
             Console.WriteLine("Lever du ? (ja/nej) ");
@@ -31,10 +31,7 @@ namespace Hellowold
                     lup = true;
                     tilstond = "Lever";
                 }
-                else
-                {
-                    Console.WriteLine("svara ja eller nej");
-                }
+                
             
 
 
