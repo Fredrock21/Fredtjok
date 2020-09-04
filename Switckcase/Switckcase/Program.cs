@@ -63,19 +63,17 @@ namespace Switckcase
 
 
             Console.WriteLine("var är dit favorit numer");
-
-
-
             var num = Convert.ToInt32(Console.ReadLine());
-            int p = 0;
 
-            while (0 == num)
+            int p = num;
+
+            while (num > 0)
             {
                 num--;
                 Console.WriteLine(num);
             }
             
-            for (var i = 0; i == num; i++)
+            for (var i = 0; i <= p; i++)
             {
                 num++;
                 Console.WriteLine(num);
