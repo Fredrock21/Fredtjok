@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\bin\Debug\netcoreapp3.1\fredik.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\bin\Debug\netcoreapp3.1\fredik.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\bin\Debug\netcoreapp3.1\fredik.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\bin\Debug\netcoreapp3.1\fredik.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\bin\Debug\netcoreapp3.1\fredik.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\bin\Debug\netcoreapp3.1\fredik.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\fredik\fredik\obj\Debug\netcoreapp3.1\fredik.genruntimeconfig.cache
