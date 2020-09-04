@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\bin\Debug\netcoreapp3.1\Switckcase.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\bin\Debug\netcoreapp3.1\Switckcase.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\bin\Debug\netcoreapp3.1\Switckcase.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\bin\Debug\netcoreapp3.1\Switckcase.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\bin\Debug\netcoreapp3.1\Switckcase.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\bin\Debug\netcoreapp3.1\Switckcase.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Switckcase\Switckcase\obj\Debug\netcoreapp3.1\Switckcase.genruntimeconfig.cache
