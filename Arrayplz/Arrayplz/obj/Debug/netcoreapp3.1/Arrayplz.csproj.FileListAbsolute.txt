@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\bin\Debug\netcoreapp3.1\Arrayplz.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\bin\Debug\netcoreapp3.1\Arrayplz.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\bin\Debug\netcoreapp3.1\Arrayplz.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\bin\Debug\netcoreapp3.1\Arrayplz.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\bin\Debug\netcoreapp3.1\Arrayplz.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\bin\Debug\netcoreapp3.1\Arrayplz.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Arrayplz\Arrayplz\obj\Debug\netcoreapp3.1\Arrayplz.genruntimeconfig.cache
