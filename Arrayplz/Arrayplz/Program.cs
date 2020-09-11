@@ -8,7 +8,7 @@ namespace Arrayplz
         {
             string[] Name = new String[5];
 
-            Console.WriteLine("Skriv in 5 nama");
+            Console.WriteLine("Skriv in 5 namn");
 
             for (int i = 0; i < 5; i++)
             {
@@ -16,7 +16,7 @@ namespace Arrayplz
             }
             Console.WriteLine("Du skrev in namnen");
 
-
+            Array.Reverse(Name);
             for (int j = 0; j < 5; j++)
             {
                 Console.WriteLine(Name[j]);
