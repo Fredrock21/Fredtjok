@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\bin\Debug\netcoreapp3.1\Metod2.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\bin\Debug\netcoreapp3.1\Metod2.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\bin\Debug\netcoreapp3.1\Metod2.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\bin\Debug\netcoreapp3.1\Metod2.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\bin\Debug\netcoreapp3.1\Metod2.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\bin\Debug\netcoreapp3.1\Metod2.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Hellowold\Metod2\obj\Debug\netcoreapp3.1\Metod2.genruntimeconfig.cache
