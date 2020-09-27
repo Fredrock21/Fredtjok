@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\bin\Debug\netcoreapp3.1\kundvagn.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\bin\Debug\netcoreapp3.1\kundvagn.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\bin\Debug\netcoreapp3.1\kundvagn.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\bin\Debug\netcoreapp3.1\kundvagn.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\bin\Debug\netcoreapp3.1\kundvagn.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\bin\Debug\netcoreapp3.1\kundvagn.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\kundvagn\kundvagn\obj\Debug\netcoreapp3.1\kundvagn.genruntimeconfig.cache
