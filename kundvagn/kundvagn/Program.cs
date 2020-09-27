@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace kundvagn
 {
@@ -13,39 +14,45 @@ namespace kundvagn
             kund._name = Console.ReadLine(); // nager din kund
 
             Console.WriteLine(kund._name);
-            int meny = 1;
 
-            meny = Convert.ToInt32(Console.ReadLine());
+            bool loop = false;
 
-            switch (meny)
+            while (!loop)
             {
-                case 1:
+                int meny = 1;
 
-                    Console.WriteLine(skapakunder()._name);
-                    //skapa ny till kund
+                meny = Convert.ToInt32(Console.ReadLine());
 
-                    
-                    break;
-                case 2:
+                switch (meny)
+                {
+                    case 1:
 
-                   
+                        Console.WriteLine(skapakunder()._name);
+                        //skapa ny kund
 
-                    // köp vara till kund
 
-                    break;
-                case 3:
-                    
-                    //kola ina varoe
+                        break;
+                    case 2:
 
-                    break;
-                case 4:
+                        // köp vara till kund
 
-                    //sluta kop
+                        break;
+                    case 3:
 
-                    break;
-                default:
-                    
-                    break;
+                        //kola ina varoe
+
+                        break;
+                    case 4:
+                        Console.WriteLine("hej");
+
+                        loop = true;
+                        //sluta shopp
+
+                        break;
+                    default:
+
+                        break;
+                }
             }
 
 
