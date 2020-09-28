@@ -6,7 +6,7 @@ namespace kundvagn
 {
     class Produkt
     {
-        public string _läsk;
+        public string _snabmat;
 
         
 
