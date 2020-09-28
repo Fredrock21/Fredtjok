@@ -16,7 +16,7 @@ namespace kundvagn
 
             Console.WriteLine("hej"+ kund._name);
 
-            List<kund> kunder = new List<kund>();
+            List<string> kunder = new List<string>();
 
             Console.WriteLine("Om du vill logga in som en annan kund tryck 1");
             Console.WriteLine("Om du vill köppa våra varor tryck 2");
@@ -36,7 +36,7 @@ namespace kundvagn
                 switch (meny)
                 {
                     case 1:
-                        kunder.Add(kund);
+                        kunder.Add(kund._name);
 
                         Console.WriteLine(kunder);
 
