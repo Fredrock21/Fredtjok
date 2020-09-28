@@ -14,11 +14,18 @@ namespace kundvagn
 
             kund._name = Console.ReadLine(); // nager din kund
 
-            Console.WriteLine(kund._name);
+            Console.WriteLine("hej"+ kund._name);
 
             List<kund> kunder = new List<kund>();
 
+            Console.WriteLine("Om du vill logga in som en annan kund tryck 1");
+            Console.WriteLine("Om du vill köppa våra varor tryck 2");
+            Console.WriteLine("Om du vill kolla din kuundvagn tryck 3");
+            Console.WriteLine("Om du vill avsluta din köp tryck 4");
+
             bool loop = false;
+
+            List<Produkt> _snabmat = new List<Produkt>();
 
             while (!loop)
             {
@@ -39,6 +46,8 @@ namespace kundvagn
 
                         break;
                     case 2:
+
+                        Console.WriteLine(köpvaror();
 
                         // köp vara till kund
 
@@ -71,6 +80,11 @@ namespace kundvagn
             kund._name = Console.ReadLine();
 
             return kunder;
+        }
+        public static List<Produkt> köpvaror()
+        {
+
+
         }
         
 
