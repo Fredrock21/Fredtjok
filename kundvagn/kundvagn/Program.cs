@@ -11,6 +11,8 @@ namespace kundvagn
             
             kund kund  = new kund(); // skapar kud.
 
+            Console.WriteLine("Hej du är vår nya kunnd");
+            Console.WriteLine("Vad heter ni?");
 
             kund._name = Console.ReadLine(); // nager din kund
 
