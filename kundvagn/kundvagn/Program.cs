@@ -1,5 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
+using System.Collections.Generic;
 
 namespace kundvagn
 {
@@ -15,6 +16,8 @@ namespace kundvagn
 
             Console.WriteLine(kund._name);
 
+            List<kund> kunder = new List<kund>();
+
             bool loop = false;
 
             while (!loop)
@@ -26,8 +29,11 @@ namespace kundvagn
                 switch (meny)
                 {
                     case 1:
+                        kunder.Add(kund);
 
-                        Console.WriteLine(skapakunder()._name);
+                        Console.WriteLine(kunder);
+
+                        Console.WriteLine(skapakunder());
                         //skapa ny kund
 
 
@@ -43,7 +49,7 @@ namespace kundvagn
 
                         break;
                     case 4:
-                        Console.WriteLine("hej");
+                        Console.WriteLine("Tack för dit köp");
 
                         loop = true;
                         //sluta shopp
@@ -58,13 +64,13 @@ namespace kundvagn
 
         }
         
-        public static kund skapakunder()
+        public static List<kund> skapakunder(List<kund> kunder)
         {
             kund kund = new kund();
 
             kund._name = Console.ReadLine();
 
-            return kund;
+            return kunder;
         }
         
 

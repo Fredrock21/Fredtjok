@@ -8,5 +8,7 @@ namespace kundvagn
     {
         public string _läsk;
 
+        
+
     }
 }
