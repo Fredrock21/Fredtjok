@@ -6,9 +6,9 @@ namespace kundvagn
 {
     class Produkt
     {
-        public string _snabmat;
+        public string _snabmatnamn;
 
-        
+        public int _snabmatpris;
 
     }
 }

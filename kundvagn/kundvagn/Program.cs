@@ -27,8 +27,6 @@ namespace kundvagn
 
             bool loop = false;
 
-            List<Produkt> _snabmat = new List<Produkt>();
-
             while (!loop)
             {
                 int meny = 1;
@@ -38,18 +36,24 @@ namespace kundvagn
                 switch (meny)
                 {
                     case 1:
+                        
                         kunder.Add(kund._name);
 
-                        Console.WriteLine(kunder);
-
-                        Console.WriteLine(skapakunder());
+                        skapakunder(kunder);
                         //skapa ny kund
+                        
+                        for (int i = 0; i < kunder.Count; i++)
+                        {
+                            Console.WriteLine(kunder[i]);
 
+                        }
 
                         break;
                     case 2:
 
-                        Console.WriteLine(köpvaror();
+                        Console.WriteLine(köpvaror(kund._snabmat));
+
+                        
 
                         // köp vara till kund
 
@@ -75,17 +79,26 @@ namespace kundvagn
 
         }
         
-        public static List<kund> skapakunder(List<kund> kunder)
+        public static List<string> skapakunder(List<string> kunder)
         {
+            Console.WriteLine("vad heter ni?");
+
             kund kund = new kund();
 
             kund._name = Console.ReadLine();
 
+            kunder.Add(kund._name);
+
             return kunder;
         }
-        public static List<Produkt> köpvaror()
+        public static List<Produkt> köpvaror(List<Produkt> produkter)
         {
+            Produkt snabmat = new Produkt();
+            snabmat._snabmatnamn = "burjare";
+            
+            produkter.Add(snabmat);
 
+            return produkter;
 
         }
         
