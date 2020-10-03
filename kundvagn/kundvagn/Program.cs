@@ -18,9 +18,11 @@ namespace kundvagn
 
             Console.WriteLine("hej "+ kund._name);
 
-            List<string> kunder = new List<string>();
+            List<kund> kunder = new List<kund>();
 
-           
+            kunder.Add(kund);
+
+            int p = 0;
 
             bool loop = false;
 
@@ -38,19 +40,18 @@ namespace kundvagn
                 switch (meny)
                 {
                     case 1:
-                        
-                        kunder.Add(kund._name);
 
                         skapakunder(kunder);
 
-                        
+                        p++;
+
                         //skapa ny kund
 
-                        
+
                         break;
                     case 2:
 
-                        köpvaror(kund._snabmat);
+                        köpvaror(kunder[p]._snabmat);
 
                         // köp vara till kund
 
@@ -59,16 +60,15 @@ namespace kundvagn
 
                         for (int i = 0; i < kunder.Count; i++)
                         {
-                            Console.WriteLine(kunder[i] + " Har köpt");
+                            Console.WriteLine(kunder[i]._name + " Har köpt");
 
-                            for (int j = 0; j < kund._snabmat.Count; j++)
+                            for (int j = 0; j < kunder[i]._snabmat.Count; j++)
                             {
-                                Console.WriteLine(kund._snabmat[j]._snabmatnamn);
+                                Console.WriteLine(kunder[i]._snabmat[j]._snabmatnamn);
 
                             }
 
                         }
-
 
                         //kola ina varoe
 
@@ -89,7 +89,7 @@ namespace kundvagn
 
         }
         
-        public static List<string> skapakunder(List<string> kunder)
+        public static List<kund> skapakunder(List<kund> kunder)
         {
             Console.WriteLine("vad heter ni?");
 
@@ -97,7 +97,7 @@ namespace kundvagn
 
             kund._name = Console.ReadLine();
 
-            kunder.Add(kund._name);
+            kunder.Add(kund);
 
             return kunder;
         }
@@ -127,12 +127,6 @@ namespace kundvagn
                     snabmat._snabmatnamn = "burgare";
 
                         produkter.Add(snabmat);
-                    }
-
-                    for (int i = 0; i < produkter.Count; i++)
-                    {
-                        Console.WriteLine(produkter[i]._snabmatnamn);
-
                     }
 
 
