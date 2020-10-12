@@ -6,5 +6,12 @@ namespace Polumorfi
 {
     class koffe
     {
+        private string _rost;
+
+        public int rost
+        {
+            get { return _rost; }
+            set { _rost = value; }
+        }
     }
 }
