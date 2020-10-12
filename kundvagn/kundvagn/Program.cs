@@ -124,7 +124,7 @@ namespace kundvagn
 
                     for (int i = 0; i < S; i++)
                     {
-                    snabmat._snabmatnamn = "burgare";
+                    snabmat._snabmatnamn = "burgare"; snabmat._snabmatpris
 
                         produkter.Add(snabmat);
                     }
