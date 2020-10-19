@@ -103,7 +103,6 @@ namespace kundvagn
         }
         public static List<Produkt> köpvaror(List<Produkt> produkter)
         {
-            Produkt snabmat = new Produkt();
 
             int meny = 1;
 
@@ -117,18 +116,8 @@ namespace kundvagn
             {
 
                 case 1:
-                    Console.WriteLine("hur många vill du ha?");
-
-                    int S = 0;
-                    S = Convert.ToInt32(Console.ReadLine());
-
-                    for (int i = 0; i < S; i++)
-                    {
-                    snabmat._snabmatnamn = "burgare"; snabmat._snabmatpris
-
-                        produkter.Add(snabmat);
-                    }
-
+                    
+                    hamburgar(produkter);
 
                     break;
                 case 2:
@@ -139,9 +128,11 @@ namespace kundvagn
 
                     for (int i = 0; i < K; i++)
                     {
-                        snabmat._snabmatnamn = "korv med bröd";
+                        var korvmbröd = new korvmedbröd();
+                        
+                        korvmbröd._snabmatnamn = "korv med bröd";
 
-                        produkter.Add(snabmat);
+                        produkter.Add(korvmbröd);
                     }
 
 
@@ -154,9 +145,11 @@ namespace kundvagn
 
                     for (int i = 0; i < C; i++)
                     {
-                        snabmat._snabmatnamn = "coca cola";
+                        var cocacola = new cocacola();
 
-                        produkter.Add(snabmat);
+                        cocacola._snabmatnamn = "coca cola";
+
+                        produkter.Add(cocacola);
                     }
 
                     
@@ -172,7 +165,87 @@ namespace kundvagn
             return produkter;
 
         }
-        
+        public static List<Produkt> hamburgar(List<Produkt> produkter)
+        {
+            int meny = 0;
+            Console.WriteLine("viken grill vil du ha?");
+
+            Console.WriteLine("rare 1");
+            Console.WriteLine("medium rare 2");
+            Console.WriteLine("Well done 3");
+
+            meny = Convert.ToInt32(Console.ReadLine());
+
+            switch (meny)
+            {
+
+                case 1:
+                    Console.WriteLine("hur många vill du ha?");
+
+                    int S = 0;
+                    S = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < S; i++)
+                    {
+                        var hamburgare = new Hamburgare();
+
+                        hamburgare._snabmatnamn = "burger";
+
+                        hamburgare._meatkvalite = "rare";
+
+                        produkter.Add(hamburgare);
+                    }
+
+                    break;
+                case 2:
+                    Console.WriteLine("hur många vill du ha?");
+
+                    int P = 0;
+                    P = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < P; i++)
+                    {
+                        var hamburgare = new Hamburgare();
+
+                        hamburgare._snabmatnamn = "burger";
+
+                        hamburgare._meatkvalite = "medium rare";
+
+                        produkter.Add(hamburgare);
+                    }
+
+
+                    break;
+                case 3:
+                    Console.WriteLine("hur många vill du ha?");
+
+                    int B = 0;
+                    B = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < B; i++)
+                    {
+                        var hamburgare = new Hamburgare();
+
+                        hamburgare._snabmatnamn = "burger";
+
+                        hamburgare._meatkvalite = "Well done";
+
+                        produkter.Add(hamburgare);
+                    }
+
+
+
+                    break;
+
+                default:
+
+                    break;
+            }
+
+            
+
+            return produkter;
+        }
 
     }
 }
