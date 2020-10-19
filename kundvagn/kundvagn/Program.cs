@@ -246,6 +246,86 @@ namespace kundvagn
 
             return produkter;
         }
+        public static List<Produkt> korv(List<Produkt> produkter)
+        {
+
+            int meny = 0;
+            Console.WriteLine("vilken smak vill ni ha?");
+
+            Console.WriteLine("gris 1");
+            Console.WriteLine("lam 2");
+            Console.WriteLine("nött 3");
+
+            meny = Convert.ToInt32(Console.ReadLine());
+
+            switch (meny)
+            {
+
+                case 1:
+                    Console.WriteLine("hur många vill du ha?");
+
+                    int K = 0;
+                    K = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < K; i++)
+                    {
+                        var korvmbröd = new korvmedbröd();
+
+                        korvmbröd._snabmatnamn = "korv med bröd";
+
+                        korvmbröd._flever = "";
+
+                        produkter.Add(korvmbröd);
+                    }
+
+                    break;
+                case 2:
+                    Console.WriteLine("hur många vill du ha?");
+
+                    int K = 0;
+                    K = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < K; i++)
+                    {
+                        var korvmbröd = new korvmedbröd();
+
+                        korvmbröd._snabmatnamn = "korv med bröd";
+
+                        korvmbröd._flever = "";
+
+                        produkter.Add(korvmbröd);
+                    }
+
+
+                    break;
+                case 3:
+                    Console.WriteLine("hur många vill du ha?");
+
+                    int K = 0;
+                    K = Convert.ToInt32(Console.ReadLine());
+
+                    for (int i = 0; i < K; i++)
+                    {
+                        var korvmbröd = new korvmedbröd();
+
+                        korvmbröd._snabmatnamn = "korv med bröd";
+
+                        korvmbröd._flever = "";
+
+                        produkter.Add(korvmbröd);
+                    }
+
+
+
+                    break;
+
+                default:
+
+                    break;
+            }
+
+            return produkter;
+        }
 
     }
 }
