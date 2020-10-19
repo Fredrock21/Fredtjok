@@ -6,7 +6,7 @@ namespace kundvagn
 {
     class korvmedbröd : Produkt
     {
-        private string _flever;
+        public string _flever;
 
     }
 }
