@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFdemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFdemo"
+        mc:Ignorable="d"
+        Title="Fredriks fönster" Height="500" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="texstblock" Grid.ColumnSpan="3" Margin="20,40,20,10"/>
+        <Button Click="myButten_Click" Name="myButten" Grid.Row="1" Grid.Column="1" Content="Fredrik knapp" FontSize="40" />
+        
+    </Grid>
+</Window>
