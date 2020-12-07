@@ -124,5 +124,40 @@ namespace WpfApp2
         {
 
         }
+
+        private void multiply_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void divide_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void koma_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void minustal_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void zero_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void enter_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
