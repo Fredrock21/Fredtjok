@@ -6,7 +6,7 @@ namespace Abstraktpolemorfi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           List<animal> animal = new List<animal>();
         }
     }
 }
