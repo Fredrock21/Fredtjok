@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Abstraktpolemorfi
 {
-    class animal
-    {
+   
         abstract class Animal
         {
             public int nuberoflims { get; set; }
@@ -19,5 +18,5 @@ namespace Abstraktpolemorfi
             public abstract void sleeping();
 
         }
-    }
+    
 }
