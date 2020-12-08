@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\bin\Debug\netcoreapp3.1\Abstraktpolemorfi.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\bin\Debug\netcoreapp3.1\Abstraktpolemorfi.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\bin\Debug\netcoreapp3.1\Abstraktpolemorfi.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\bin\Debug\netcoreapp3.1\Abstraktpolemorfi.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\bin\Debug\netcoreapp3.1\Abstraktpolemorfi.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\bin\Debug\netcoreapp3.1\Abstraktpolemorfi.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Abstraktpolemorfi\Abstraktpolemorfi\obj\Debug\netcoreapp3.1\Abstraktpolemorfi.genruntimeconfig.cache
