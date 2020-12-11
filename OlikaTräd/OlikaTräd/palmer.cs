@@ -6,6 +6,10 @@ namespace OlikaTräd
 {
     class palmer : Träd
     {
+        public palmer()
+        {     
+            höjd = 5;
+        }
         public override void lövenfaller()
         {
             Console.WriteLine("Löven torkar i hop.");
@@ -13,7 +17,7 @@ namespace OlikaTräd
 
         public override void trädhöjd()
         {
-            Console.WriteLine("Plamen är 3m");
+            Console.WriteLine("Plamen är 13m");
         }
 
         public override void lifsklimat()

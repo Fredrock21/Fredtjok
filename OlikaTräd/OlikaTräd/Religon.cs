@@ -4,7 +4,13 @@ using System.Text;
 
 namespace OlikaTräd
 {
-    class Religon
+    abstract class Religon
     {
+
+        public abstract void profet();
+        public abstract void bock();
+        public abstract void hus();
+
+
     }
 }

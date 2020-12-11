@@ -2,11 +2,12 @@
 {
     abstract class Träd
     {
+        public int höjd { get; set; }
         public abstract void lövenfaller();
 
-        public int höjd { get; set; }
+        public abstract void trädhöjd();
 
-        public string klimat { get; set; }
+        public abstract void lifsklimat();
 
 
     }
