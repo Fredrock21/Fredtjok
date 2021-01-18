@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\bin\Debug\netcoreapp3.1\DPE.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\bin\Debug\netcoreapp3.1\DPE.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\bin\Debug\netcoreapp3.1\DPE.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\bin\Debug\netcoreapp3.1\DPE.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\bin\Debug\netcoreapp3.1\DPE.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\bin\Debug\netcoreapp3.1\DPE.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\DPEupp\DPE\obj\Debug\netcoreapp3.1\DPE.genruntimeconfig.cache
