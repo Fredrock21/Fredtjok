@@ -6,5 +6,11 @@ namespace DPE
 {
     class Owner
     {
+        string _owner;
+
+        public void TransferOwnership(string owner)
+        {
+            _owner = owner;
+        }
     }
 }
