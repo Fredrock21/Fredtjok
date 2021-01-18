@@ -17,7 +17,7 @@ namespace DPE
             {
                 if (animal is Dog dog)
                 {
-                    dog.TransferOwnership("Niklas"); // fufens 
+                    animal.TransferOwnership("Niklas"); // fufens 
                 }
 
                 animal.Eat();

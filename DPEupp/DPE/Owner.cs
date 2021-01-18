@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DPE
 {
-    class Owner
+    class Owner 
     {
         string _owner;
 

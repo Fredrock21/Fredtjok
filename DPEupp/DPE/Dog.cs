@@ -7,7 +7,6 @@ namespace DPE
     class Dog : Animal
     {
         string _owner;
-
         public Dog(string color) : base(color)
         {
 
@@ -28,9 +27,6 @@ namespace DPE
             Console.WriteLine("Dog is eating. " + _owner + " is happy!");
         }
 
-        public void TransferOwnership(string owner)
-        {
-            _owner = owner;
-        }
+        
     }
 }
