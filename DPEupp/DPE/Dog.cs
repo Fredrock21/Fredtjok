@@ -4,10 +4,10 @@ using System.Text;
 
 namespace DPE
 {
-    class Dog : Animal 
+    class Dog : Animal
     {
+        string _owner;
 
-         
         public Dog(string color) : base(color)
         {
 
@@ -15,7 +15,7 @@ namespace DPE
 
         public override void Eat()
         {
-            Console.WriteLine("Dog is eating.");
+            Console.WriteLine("Dog is barking!");
         }
 
         public override void Sleep()
@@ -25,9 +25,12 @@ namespace DPE
 
         public override void Speak()
         {
-            Console.WriteLine("Dog is barking! " + _owner + " is happy!");
+            Console.WriteLine("Dog is eating. " + _owner + " is happy!");
         }
 
-        
+        public void TransferOwnership(string owner)
+        {
+            _owner = owner;
+        }
     }
 }
