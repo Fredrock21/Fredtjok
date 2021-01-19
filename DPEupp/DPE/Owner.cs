@@ -4,9 +4,10 @@ using System.Text;
 
 namespace DPE
 {
-    class Owner 
+    class Owner
     {
         string _owner;
+
 
         public void TransferOwnership(string owner)
         {
