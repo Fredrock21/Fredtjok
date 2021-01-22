@@ -6,13 +6,13 @@ namespace DPE
 {
     class Dog : Animal
     {
-        string _owner;
+        
         public Dog(string color) : base(color)
         {
 
         }
 
-        public override void Eat()
+        public override void Speak()
         {
             Console.WriteLine("Dog is barking!");
         }
@@ -22,9 +22,9 @@ namespace DPE
             Console.WriteLine("Dog is sleeping!");
         }
 
-        public override void Speak()
+        public override void Eat()
         {
-            Console.WriteLine("Dog is eating. " + _owner + " is happy!");
+            Console.Write("Dog is eating. ");
         }
 
         

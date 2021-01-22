@@ -11,7 +11,7 @@ namespace DPE
 
         }
 
-        public override void Eat()
+        public override void Speak()
         {
             Console.WriteLine("Hedgehog is squeeking!");
         }
@@ -21,7 +21,7 @@ namespace DPE
             Console.WriteLine("Hedgehog is napping!");
         }
 
-        public override void Speak()
+        public override void Eat()
         {
             Console.WriteLine("Hedgehog is omnomnoming!");
         }

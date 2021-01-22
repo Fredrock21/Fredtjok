@@ -6,12 +6,16 @@ namespace DPE
 {
     class Owner
     {
-        string _owner;
+        Animal dog; 
 
 
-        public void TransferOwnership(string owner)
+        public void TransferOwnership(String _owner)
         {
-            _owner = owner;
+            Console.WriteLine(_owner + " is happy!");
+
         }
+         
+
+
     }
 }

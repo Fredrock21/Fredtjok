@@ -6,21 +6,26 @@ namespace DPE
     {
         static void Main(string[] args)
         {
+            Owner _owner = new Owner();
+
             Animal[] animals = {new Dog("Black"),
                             new Hedgehog("Pink"),
-                            new Bird("Yellow")};
+                            new Bird("Yellow")
+            };
 
             Console.WriteLine("###############");
             Console.WriteLine();
 
             foreach (var animal in animals)
             {
+                 animal.Eat();
+                
                 if (animal is Dog dog)
                 {
-                    animal.TransferOwnership("Niklas"); // fufens 
+                    _owner.TransferOwnership("Niklas"); // fufens 
                 }
 
-                animal.Eat();
+                
                 animal.Sleep();
                 animal.Speak();
                 animal._color = "Grey";
