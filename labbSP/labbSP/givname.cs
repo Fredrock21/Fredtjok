@@ -4,7 +4,7 @@ using System.Text;
 
 namespace labbSP
 {
-    class pet_owner
+    class givname
     {
     }
 }

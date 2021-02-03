@@ -4,7 +4,11 @@ using System.Text;
 
 namespace labbSP
 {
-    class pet
+    abstract class pet
     {
+        public abstract void Speak();
+
+        public abstract void name();
+
     }
 }
