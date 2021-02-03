@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace labbSP
 {
@@ -6,9 +7,12 @@ namespace labbSP
     {
         static void Main(string[] args)
         {
+            
+            List<pet> djur = new List<pet>();
+            
             Console.WriteLine("Welcome to the pet stor");
 
-            List<pet> djur = new List<pet>();
+
             bool P = true;
 
             Console.WriteLine("You kan by a katt or a dog");
@@ -21,13 +25,15 @@ namespace labbSP
                 {
                     case "katt":
                         var cat = new katt();
-
+                        
                         P = true;
+                        djur.Add(cat);
                         break;
 
                     case "dog":
 
                         var hund = new dog();
+                        djur.Add(hund);
 
                         P = true;
                         break;
@@ -47,14 +53,17 @@ namespace labbSP
 
 
             Console.WriteLine("what du you wont to do with the" + chose);
-            Console.WriteLine("(1) give the" + chose + "a name" );
-            Console.WriteLine("(2) giv the");
+            Console.WriteLine("(1) give the" + chose + "a coler" );
+            Console.WriteLine("(2) thack to your" + chose );
+            Console.WriteLine("(3) Go home whit" + chose);
 
             var operation = Console.ReadLine();
 
             switch (operation)
             {
                 case "1":
+
+
                     
                     break;
                 case "2":
