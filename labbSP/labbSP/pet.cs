@@ -6,9 +6,8 @@ namespace labbSP
 {
     abstract class pet
     {
-        public abstract void Speak();
-
-        public abstract void name();
+        
+        public abstract void _name();
 
     }
 }

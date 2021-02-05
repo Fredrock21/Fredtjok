@@ -9,6 +9,8 @@ namespace labbSP
         {
             
             List<pet> djur = new List<pet>();
+
+            Igivename giva; 
             
             Console.WriteLine("Welcome to the pet stor");
 
@@ -47,40 +49,49 @@ namespace labbSP
 
             }
 
+            
 
 
-            bool reset = false;
 
+            
 
-            Console.WriteLine("what du you wont to do with the" + chose);
-            Console.WriteLine("(1) give the" + chose + "a coler" );
-            Console.WriteLine("(2) thack to your" + chose );
-            Console.WriteLine("(3) Go home whit" + chose);
+            Console.WriteLine("what du you wont to cal your new " + chose);
+
+            String name = Console.ReadLine();
+
+            Console.WriteLine("(1) give the" + chose + "a name by collaring it");
+            Console.WriteLine("(2) give the" + chose + "a name by sipping it");
+
 
             var operation = Console.ReadLine();
+
+
+            
 
             switch (operation)
             {
                 case "1":
-
-
+                    giva = new collar();
+                    
                     
                     break;
                 case "2":
-                    
+                    giva = new chip();
+
                     break;
-                case "3":
-                                     
-                   
-                    break;
+                
                 default:
-                    Console.WriteLine("");
-                    reset = true;
+                    Console.WriteLine("The " + chose + " dide of sadnes wen you didet giv name him propely");
+                    
+
+                    giva = new collar();
                     
                     break;
             }
 
-
+            
+            var conteckst = new conteckst(giva);
+            conteckst.dostrat(name);
 
 
         }

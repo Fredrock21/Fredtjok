@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\bin\Debug\netcoreapp3.1\labbSP.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\bin\Debug\netcoreapp3.1\labbSP.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\bin\Debug\netcoreapp3.1\labbSP.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\bin\Debug\netcoreapp3.1\labbSP.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\bin\Debug\netcoreapp3.1\labbSP.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\bin\Debug\netcoreapp3.1\labbSP.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\labbSP\labbSP\obj\Debug\netcoreapp3.1\labbSP.genruntimeconfig.cache

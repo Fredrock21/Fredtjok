@@ -4,7 +4,11 @@ using System.Text;
 
 namespace labbSP
 {
-    class givname
+    interface Igivename
     {
+
+        void gname(String name);
+
+
     }
 }

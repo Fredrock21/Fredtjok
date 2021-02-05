@@ -6,14 +6,11 @@ namespace labbSP
 {
     class dog : pet
     {
-        public override void name()
+        public override void _name()
         {
             throw new NotImplementedException();
         }
 
-        public override void Speak()
-        {
-            Console.WriteLine("dog is baking");
-        }
+
     }
 }
