@@ -4,12 +4,7 @@ using System.Text;
 
 namespace Newspaper
 {
-    class Reader : IReader
+    interface Ipaper
     {
-
-        public Reader name { get; set; }
-
-
-
     }
 }

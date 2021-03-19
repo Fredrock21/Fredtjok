@@ -6,7 +6,7 @@ namespace Newspaper
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int artickal; 
         }
     }
 }
