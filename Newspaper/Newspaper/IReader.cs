@@ -4,7 +4,8 @@ using System.Text;
 
 namespace Newspaper
 {
-    interface IReaders
+    interface IReader
     {
+        void NewA();
     }
 }

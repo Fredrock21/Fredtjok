@@ -1,0 +1,13 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\bin\Debug\netcoreapp3.1\Newspaper.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\bin\Debug\netcoreapp3.1\Newspaper.deps.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\bin\Debug\netcoreapp3.1\Newspaper.runtimeconfig.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\bin\Debug\netcoreapp3.1\Newspaper.runtimeconfig.dev.json
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\bin\Debug\netcoreapp3.1\Newspaper.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\bin\Debug\netcoreapp3.1\Newspaper.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.AssemblyInfoInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.AssemblyInfo.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.dll
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\Newspaper\Newspaper\obj\Debug\netcoreapp3.1\Newspaper.genruntimeconfig.cache
