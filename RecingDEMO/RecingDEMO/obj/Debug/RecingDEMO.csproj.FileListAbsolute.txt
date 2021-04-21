@@ -1,0 +1,15 @@
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\bin\Debug\RecingDEMO.exe.config
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\bin\Debug\RecingDEMO.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\bin\Debug\RecingDEMO.pdb
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.csprojAssemblyReference.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\MainWindow.g.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\App.g.cs
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO_MarkupCompile.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO_MarkupCompile.lref
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\MainWindow.baml
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.g.resources
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.Properties.Resources.resources
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.csproj.GenerateResource.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.csproj.CoreCompileInputs.cache
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.exe
+C:\Users\fredrik.nilsson10\Documents\GitHub\Fredtjok\RecingDEMO\RecingDEMO\obj\Debug\RecingDEMO.pdb
