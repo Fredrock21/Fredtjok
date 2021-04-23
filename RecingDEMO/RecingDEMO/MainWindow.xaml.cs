@@ -4,6 +4,9 @@ using System.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -29,10 +32,10 @@ namespace RecingDEMO
         DispatcherTimer gameTimer = new DispatcherTimer();
 
         int lifes = 1;
+        int disstens = 0;
         int moveX = 0;
         bool gameOver;
         Rect F1HitBox;
-
 
         public MainWindow()
         {
@@ -48,35 +51,27 @@ namespace RecingDEMO
         {
             livs.Content = "lives: " + lifes;
 
-            F1HitBox = new Rect(Canvas.GetTop(F1), Canvas.GetLeft(F1), F1.Width - 80, F1.Height);
+            F1HitBox = new Rect(Canvas.GetLeft(F1), Canvas.GetTop(F1), F1.Width, F1.Height);
 
             Canvas.SetLeft(F1, Canvas.GetLeft(F1) + moveX);
 
-
-
-            if (Canvas.GetLeft(F1) < -10 || Canvas.GetLeft(F1) > 510)
+            if (Canvas.GetLeft(F1) < -25 || Canvas.GetLeft(F1) > 460)
             {
                 EndGame();
             }
 
-
-
-
-
             foreach (var y in MyCanvas.Children.OfType<Image>())
             {
-                if ((string)y.Tag == "Line1" || (string)y.Tag == "Line2" || (string)y.Tag == "Line3" || (string)y.Tag == "Line4")
+                if ((string)y.Tag == "Line1" || (string)y.Tag == "Line2" || (string)y.Tag == "Line3" || (string)y.Tag == "Line4" || (string)y.Tag == "Line5")
                 {
                     Canvas.SetTop(y, Canvas.GetTop(y) + 10);
 
-                    if (Canvas.GetTop(y) > 330)
+                    if (Canvas.GetTop(y) > 300)
                     {
                         Canvas.SetTop(y, -60);
                     }
 
                 }
-
-
 
                 Random speed = new Random();
                 int cars = speed.Next(2, 7);
@@ -85,43 +80,37 @@ namespace RecingDEMO
                 {
                     Canvas.SetTop(y, Canvas.GetTop(y) + cars);
 
-                    if (Canvas.GetTop(y) > 330)
+                    if (Canvas.GetTop(y) > 400)
                     {
                         Canvas.SetTop(y, -90);
                     }
 
                 }
 
-                Rect CarHitBox1 = new Rect(Canvas.GetTop(car1), Canvas.GetLeft(car1), car1.Width, car1.Height);
-
+                Rect CarHitBox1 = new Rect(Canvas.GetLeft(car1), Canvas.GetTop(car1), car1.Width, car1.Height);
                 if (F1HitBox.IntersectsWith(CarHitBox1))
                 {
                     EndGame();
                 }
-                Rect CarHitBox2 = new Rect(Canvas.GetTop(car2), Canvas.GetLeft(car2), car2.Width, car2.Height);
 
+                Rect CarHitBox2 = new Rect(Canvas.GetLeft(car2), Canvas.GetTop(car2), car2.Width, car2.Height);
                 if (F1HitBox.IntersectsWith(CarHitBox2))
                 {
                     EndGame();
                 }
-                Rect CarHitBox3 = new Rect(Canvas.GetTop(car3), Canvas.GetLeft(car3), car3.Width, car3.Height);
 
+                Rect CarHitBox3 = new Rect(Canvas.GetLeft(car3), Canvas.GetTop(car3), car3.Width, car3.Height);
                 if (F1HitBox.IntersectsWith(CarHitBox3))
                 {
                     EndGame();
                 }
-                Rect CarHitBox4 = new Rect(Canvas.GetTop(car4), Canvas.GetLeft(car4), car4.Width, car4.Height);
 
+                Rect CarHitBox4 = new Rect(Canvas.GetLeft(car4), Canvas.GetTop(car4), car4.Width, car4.Height);
                 if (F1HitBox.IntersectsWith(CarHitBox4))
                 {
                     EndGame();
                 }
-
-
             }
-
-
-
         }
 
         private void Stering(object sender, KeyEventArgs e)
@@ -135,20 +124,17 @@ namespace RecingDEMO
             {
                 F1.RenderTransform = new RotateTransform(5);
                 moveX = 5;
-
             }
 
             if (e.Key == Key.R)
             {
                 StartGame();
-
             }
-
         }
 
         private void Crusing(object sender, KeyEventArgs e)
         {
-            F1.RenderTransform = new RotateTransform(0, F1.Width, F1.Height);
+            F1.RenderTransform = new RotateTransform(0);
             moveX = 0;
         }
 
@@ -156,38 +142,37 @@ namespace RecingDEMO
         {
             MyCanvas.Focus();
 
-            
-
-
-
             gameOver = false;
 
-            Canvas.SetTop(F1, 196);
+            Canvas.SetLeft(F1, 220);
+
+            lifes = 1;
 
             foreach (var y in MyCanvas.Children.OfType<Image>())
             {
                 if ((string)y.Tag == "Line1")
                 {
-                    Canvas.SetTop(y, 0);
+
+                    Canvas.SetTop(y, 300);
                 }
 
                 if ((string)y.Tag == "Line2")
                 {
-                    Canvas.SetTop(y, 100);
+                    Canvas.SetTop(y, 210);
                 }
 
                 if ((string)y.Tag == "Line3")
                 {
-                    Canvas.SetTop(y, 200);
+                    Canvas.SetTop(y, 120);
                 }
 
                 if ((string)y.Tag == "Line4")
                 {
-                    Canvas.SetTop(y, 300);
+                    Canvas.SetTop(y, 30);
                 }
                 if ((string)y.Tag == "Line5")
                 {
-                    Canvas.SetTop(y, 400);
+                    Canvas.SetTop(y, -60);
                 }
 
                 if ((string)y.Tag == "car1")
@@ -206,24 +191,18 @@ namespace RecingDEMO
                 {
                     Canvas.SetTop(y, -200);
                 }
-
             }
             gameTimer.Start();
-
         }
 
         private void EndGame()
         {
             gameTimer.Stop();
             gameOver = true;
-            livs.Content = "lives: 0";
+
+            lifes = 0;
+            livs.Content = "lives: " + lifes + " press R to start agen.";
         }
-
-
-
     }
 }
-
-
-
 

@@ -95,10 +95,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bilder\F1.png" />
+    <Resource Include="bilder\WhiteLine.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="bilder\WhiteLine.png" />
+    <Resource Include="bilder\F1.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="bilder\Car1.png" />
