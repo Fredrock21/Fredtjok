@@ -4,9 +4,6 @@ using System.Linq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -32,10 +29,11 @@ namespace RecingDEMO
         DispatcherTimer gameTimer = new DispatcherTimer();
 
         int lifes = 1;
-        int disstens = 0;
+        double dis = 0;
         int moveX = 0;
         bool gameOver;
         Rect F1HitBox;
+
 
         public MainWindow()
         {
@@ -50,6 +48,7 @@ namespace RecingDEMO
         private void MainEventTimer(object sender, EventArgs e)
         {
             livs.Content = "lives: " + lifes;
+            distanc.Content = "Distanc " + dis + " m";
 
             F1HitBox = new Rect(Canvas.GetLeft(F1), Canvas.GetTop(F1), F1.Width, F1.Height);
 
@@ -69,6 +68,8 @@ namespace RecingDEMO
                     if (Canvas.GetTop(y) > 300)
                     {
                         Canvas.SetTop(y, -60);
+
+                        dis += 1;
                     }
 
                 }
@@ -147,6 +148,8 @@ namespace RecingDEMO
             Canvas.SetLeft(F1, 220);
 
             lifes = 1;
+
+            dis = 0;
 
             foreach (var y in MyCanvas.Children.OfType<Image>())
             {
